@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman" Georgia serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-family: "Times New Roman" Georgia serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+a:hover {
+  border: 2px;
+  background-color: #cccccc;
+  display: inline-block;
+  color: #000000;
+}
+
+a:visited {
+  color: black;
+}
+
+.logo-name {
+  font-size: 15px;
+  width: auto;
+  font-family: "Times New Roman" Georgia serif;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+}
+
+.logo-name hover {
+  background-color: #cccccc;
+  color: #000000;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 {
+  background-image: url(../img/hamburger.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 120vh;
+}
+
+.section1 h1 {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 650px;
+  padding-left: 24px;
+  color: RGB(0, 0, 0);
+  justify-content: flex-start;
+  align-items: flex-end;
+  opacity: 0.6;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 150px;
+  border-bottom: 1px solid #ccc;
+}
+
+.catering-img1 {
+  width: 48%;
+  opacity: 0.75;
+
+}
+
+.catering-text {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  width: 48%;
+  line-height: 25px;
+}
+
+.catering-heading {
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 25px;
+  font-size: 36px;
+}
+
+.catering-subheading {
+  text-align: center;
+  word-spacing: 8px;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-family: "Times New Roman italic";
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  padding-top: 70px;
+}
+
+.catering-content1 {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  padding-top: 5px;
+  line-height: 27px;
+}
+
+.catering-spantext {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #f1f1f1;
+}
+
+.catering-content2 {
+  padding-top:20px;
+  color: gray;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+                                                /* section 3 */
+
+                                                
+
+
+.menu-heading{
+  font-family: 'Times New Roman';
+  color:rgb(0, 0, 0);
+  letter-spacing: 5px;
+  line-height: 54px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 18px;
+
+}
+
+.menu-section{
+  font-family: 'Times New Roman';
+  color:rgb(0, 0, 0);
+  letter-spacing: 5px;
+  line-height: 54px;
+}
+
+
+.dish-name{
+  color:rgb(0, 0, 0);
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top:10px; 
+   margin-bottom: 10px;
+   padding-top:18px;
+  
+}
+
+.dish-description{
+ color:rgb(117, 117, 117);
+  line-height: 22.5px;
+  font-size: 15px;
+  font-weight: 400;
+   margin-top:15px; 
+   margin-bottom: 15px;
+   padding-bottom: 20px; 
+}
+
+.menu-img{
+  opacity: 0.75;
+}
+
+
+ .contact{
+  padding-top:80px;
+  padding-left: 150px;
+  padding-right:150px;
+  padding-bottom:64px;
+} 
+
+
+.contact-heading{
+   font-size: 36px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 400;
+   color:#000000;
+   margin-top: 10px;
+   margin-bottom:10px;
+   letter-spacing: 5px;
+  
+}
+
+
+.contact-description1{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color:#000000;
+  line-height: 22.5px;
+  margin-top: 15px;
+  margin-bottom:10px;
+
+}
+
+
+
+.address{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 27px;
+  color:rgb(96, 125, 139);
+  margin-top: 10px;
+}
+
+.contact-description2{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color:#000000;
+  line-height: 22.5px;
+  margin-top: 15px;
+  margin-bottom:26px;
+}
+
+.contact > contact-form{
+  text-align: center;
+  width:95%;
+  height:80%;
+ 
+}
+
+.input-form{
+  width:95%;
+  height:80%;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ccc;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+}
+
+.msg-send{
+  background-color: rgb(241,241,241,241);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Times New Roman';
+  padding: 10px 16px;
+  margin-top:16px;
+  margin-bottom:16px;
+  border: none;
+}
+
+.footer-text{
+  text-align: center;
+  background-color: rgb(241,241,241,241);
+  font-size: 15px;
+  font-weight: 400;
+  padding:40px;
+  line-height: 1.5px;
+}
+
+.footer-link a:link{
+  text-decoration: underline;
+}
+
+.footer-link a:hover{
+ color:green;
+ text-decoration: underline;
+ background-color: transparent;
+
+ 
+}
+
